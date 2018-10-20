@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Drum Machine
+    </title>
+    <!-- adds drum icon to app title -->
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIGHgRTOuxvgNsw6-YefFneRcZzYvbfZbe9ij6vfYzoGaqxJ6j">
+    <!-- links html file to css file -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- links to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700|Sawarabi+Gothic|Source+Code+Pro" rel="stylesheet">
+</head>
+
+<body>
+    <!-- container that houses drum pad -->
+    <div class="wrapper">
+        <div class="box display" id="display"></div>
+        <div class="box" id="Q">Q</div>
+        <div class="box" id="W">W</div>
+        <div class="box" id="E">E</div>
+        <div class="box" id="A">A</div>
+        <div class="box" id="S">S</div>
+        <div class="box" id="D">D</div>
+        <div class="box" id="Z">Z</div>
+        <div class="box" id="X">X</div>
+        <div class="box" id="C">C</div>
+    </div>
+    <!-- power toggle -->
+    <div class="power">
+    <p> POWER </p>
+        <label class="switch">
+        <input type="checkbox"  id='power'>
+        <span class="slider round"></span>
+    </label>
+    </div>
+
+    <!-- <div class="keyboard">
+        <p> keyboard </p>
+        <label class="switch">
+            <input type="checkbox" id='keyboard'>
+            <span class="slider round"></span>
+        </label>
+    </div> -->
+    <!-- links to javascript file -->
+    <script src="scripts/functions.js"></script>
+</body>
+
+</html>
